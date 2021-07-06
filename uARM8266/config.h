@@ -4,10 +4,10 @@
     Some notes about the SD pins
     From the Arduino IDE example of SD card for esp8266:
     
-    ** MOSI - pin 11
-    ** MISO - pin 12
-    ** CLK - pin 13
-    ** CS - pin 4 (you can change this)
+    ** MOSI - pin GPIO13
+    ** MISO - pin GPIO12
+    ** CLK - pin GPIO14
+    ** CS - pin GPIO4 (you can change this)
 */
 
 #define SD_CS_PIN 4 // SD chip select pin
@@ -22,7 +22,7 @@
 #define ENABLE_BUTTON_GET_SPEED
 
 #ifdef ENABLE_BUTTON_GET_SPEED
-#define BUTTON_GET_SPEED 5
+#define BUTTON_GET_SPEED 5 // GPIO5 by default
 #endif
 
 /* 
