@@ -5,7 +5,7 @@ Real Linux (Ubuntu 9) running on ARM emulator on esp8266.
 This is a port of [Dmitry Grinberg](http://dmitry.gr/)'s project to run on esp8266. His original project is to [run Linux on AVR](http://dmitry.gr/?r=05.Projects&proj=07.%20Linux%20on%208bit).
 
 ## How?
-Because there is no native Linux support for esp8266 (although it's based on xtensa architecture (particularly LX106), which is 32-bits and have MMU, and their is [Linux support for <b>*some*</b> of the xtensa](http://www.linux-xtensa.org/)), so we have to find an architecture that Linux can run on. And I have found the super portable emulator on his project, and port it to esp8266.
+Because there is no native Linux support for esp8266 (although it's based on xtensa architecture (particularly LX106), which is 32-bits and have MMU, and there is [Linux support for <b>*some*</b> of the xtensa](http://www.linux-xtensa.org/)), so we have to find an architecture that Linux can run on. And I have found the super portable emulator on his project, and port it to esp8266.
 
 ## Why?
 For fun :)
@@ -27,7 +27,7 @@ Download the image file from [here](https://github.com/raspiduino/uARM-old/blob/
 <br>Open the terminal and connect to the right COM port with baudrate 115200. Enjoy your Linux!
 
 ## Credit
-- 98% of the work was done by Dmitry Grinberg
+- 99% of the work was done by Dmitry Grinberg
 
 ## License
 Dmitry's license in LICENSE.txt:
