@@ -1,5 +1,5 @@
 # uARM8266
-Real Linux (Ubuntu 9) running on ARM emulator on esp8266.
+Real Linux (Ubuntu 9) running on ARM emulator on esp8266. This thing **haven't been tested once**, so you have to expect to encounter errors. I planned to port `mini-rv32ima` to esp8266, but currently can't due to lack of time.
 
 ## What is this?
 This is a port of [Dmitry Grinberg](http://dmitry.gr/)'s project to run on esp8266. His original project is to [run Linux on AVR](http://dmitry.gr/?r=05.Projects&proj=07.%20Linux%20on%208bit).
